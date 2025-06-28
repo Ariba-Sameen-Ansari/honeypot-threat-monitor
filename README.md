@@ -1,13 +1,20 @@
 # 🛡️ Honeypot Threat Monitor (SOC Analyst Project)
 
-This project analyzes SSH honeypot attack attempts and visualizes attacker behavior. It includes MITRE ATT&CK classification for brute-force detection and lays the groundwork for AI-based anomaly detection.
+This project simulates a real-world SOC task by analyzing SSH honeypot attack logs. It focuses on identifying brute-force attacks, visualizing attacker behavior, and mapping threat activity using the MITRE ATT&CK framework.
 
-## ✅ Features
-- Log parsing from a simulated honeypot
-- Top attacker IP visualization
-- Most common usernames attempted
-- MITRE ATT&CK Mapping: T1110.001
+## 🔍 Project Objectives
+- Detect brute-force login attempts (SSH)
+- Visualize attacker IPs and username patterns
+- Map attack activity to MITRE ATT&CK (T1110.001)
 
-## 📌 Next Steps
-- Add AI anomaly detection
-- Auto-alert system for suspicious IPs
+## 📊 Tools Used
+- Python (Pandas, Matplotlib)
+- Jupyter Notebook
+
+## ✅ Key Outcomes
+- Identified top attacker IPs and common login attempts
+- Mapped behavior to MITRE: Tactic = Credential Access, Technique = Brute Force (T1110.001)
+
+## 🧠 Next Steps
+- Implement anomaly detection (AI)
+- Add basic alerting logic
